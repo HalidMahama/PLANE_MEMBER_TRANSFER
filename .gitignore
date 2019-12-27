@@ -2,7 +2,6 @@
 *.pdf
 *.csv
 Tester1.py
-/Plane-Member-Swap/
 /cfg/simsummary.xml
 /cfg/Final Sim Results
 /cfg/sumolib
