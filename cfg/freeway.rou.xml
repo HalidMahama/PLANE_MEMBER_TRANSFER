@@ -1,0 +1,39 @@
+<routes>
+	<vType id="vtypeauto" accel="2.5" decel="8" sigma="0.5" length="4" minGap="1" maxSpeed="65" color="1,0,0" probability="1" speedFactor="1000">
+		<carFollowing-CC tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5" decel="8" lanesCount="4" ccAccel="2.5"/>
+	</vType>
+    <route id = "route_0_0" edges = "source0 s0 n1 p2 n3 e0 exit0"/>
+    <route id = "route_0_1" edges = "source0 s0 n1 p2 n3 p4 p5 n6 p7 n8 e1 exit1"/>
+    <route id = "route_0_2" edges = "source0 s0 n1 p2 n3 p4 p5 n6 p7 n8 p9 p10 n11 p12 n13 e2 exit2"/>
+
+    <route id = "route_0_0_x" edges = "p2 n3 e0 exit0"/>
+    <route id = "route_0_1_x" edges = "p2 n3 p4 p5 n6 p7 n8 e1 exit1"/>
+    <route id = "route_0_2_x" edges = "p2 n3 p4 p5 n6 p7 n8 p9 p10 n11 p12 n13 e2 exit2"/>
+
+    <route id = "route_1_0" edges = "source1 s1 n6 p7 n8 e1 exit1"/>
+    <route id = "route_1_1" edges = "source1 s1 n6 p7 n8 p9 p10 n11 p12 n13 e2 exit2"/>
+    <route id = "route_1_2" edges = "source1 s1 n6 p7 n8 p9 p10 n11 p12 n13 p14 p15 n16 p17 n18 e3 exit3"/>
+
+    <route id = "route_1_0_x" edges = "p7 n8 e1 exit1"/>
+    <route id = "route_1_1_x" edges = "p7 n8 p9 p10 n11 p12 n13 e2 exit2"/>
+    <route id = "route_1_2_x" edges = "p7 n8 p9 p10 n11 p12 n13 p14 p15 n16 p17 n18 e3 exit3"/>
+
+    <route id = "route_2_0" edges = "source2 s2 n11 p12 n13 e2 exit2"/>
+    <route id = "route_2_1" edges = "source2 s2 n11 p12 n13 p14 p15 n16 p17 n18 e3 exit3"/>
+    <route id = "route_2_2" edges = "source2 s2 n11 p12 n13 p14 p15 n16 p17 n18 p19 p0 n1 p2 n3 e0 exit0"/>
+
+    <route id = "route_2_0_x" edges = "p12 n13 e2 exit2"/>
+    <route id = "route_2_1_x" edges = "p12 n13 p14 p15 n16 p17 n18 e3 exit3"/>
+    <route id = "route_2_2_x" edges = "p12 n13 p14 p15 n16 p17 n18 p19 p0 n1 p2 n3 e0 exit0"/>
+
+    <route id = "route_3_0" edges = "source3 s3 n16 p17 n18 e3 exit3"/>
+    <route id = "route_3_1" edges = "source3 s3 n16 p17 n18 p19 p0 n1 p2 n3 e0 exit0"/>
+    <route id = "route_3_2" edges = "source3 s3 n16 p17 n18 p19 p0 n1 p2 n3 p4 p5 n6 p7 n8 e1 exit1"/>
+
+    <route id = "route_3_0_x" edges = "p17 n18 e3 exit3"/>
+    <route id = "route_3_1_x" edges = "p17 n18 p19 p0 n1 p2 n3 e0 exit0"/>
+    <route id = "route_3_2_x" edges = "p17 n18 p19 p0 n1 p2 n3 p4 p5 n6 p7 n8 e1 exit1"/>
+</routes>
+
+
+

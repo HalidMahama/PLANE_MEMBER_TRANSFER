@@ -1,0 +1,10 @@
+<tazs>
+    <taz id="poly_2" edges="exit0"/>
+    <taz id="poly_3" edges="source1"/>
+    <taz id="poly_4" edges="source0"/>
+    <taz id="poly_5" edges="exit3"/>
+    <taz id="poly_6" edges="exit1"/>
+    <taz id="poly_7" edges="source2"/>
+    <taz id="poly_8" edges="exit2"/>
+    <taz id="poly_9" edges="source3"/>
+</tazs>
