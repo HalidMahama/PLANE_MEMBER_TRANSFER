@@ -341,8 +341,8 @@ def main(real_engine, setter=None, demo_mode=False):
         edge_filter=PLAT_EDGES, vtype_filter=["vtypeauto"])
     pstate = INSERT
 
-    while running(demo_mode, step, 3810):
-        if demo_mode and step == 3810:
+    while running(demo_mode, step, 3804):
+        if demo_mode and step == 3804:
             start_sumo("cfg/freeway.sumo.cfg", False)
             step = 0
         print("step is : {}".format(step))
@@ -399,6 +399,7 @@ def main(real_engine, setter=None, demo_mode=False):
                             removed_vehs.append(vehicle)
                     topology = plane.topo_contsructor(removed_vehs)
                     topology = plane.pla_speed_spacing(topology)
+                    print(f'Topology is {topology}')
                     communicate(topology)
                     traci.simulationStep()
         if step > 0 and step % swap_step == 0 and traci.vehicle.getRoadID(veh_of_interest) == 'p2'\
@@ -433,6 +434,7 @@ def main(real_engine, setter=None, demo_mode=False):
                         removed_vehs.append(vehicle)
                 topology = plane.topo_contsructor(removed_vehs)
                 topology = plane.swap_speed_spacing(topology)
+                print(f'Topology is {topology}')
                 communicate(topology)
                 if plane.near_flag():
                     flag_n_poi_index = plane.look_for_flags(pois, step)
@@ -476,6 +478,7 @@ def main(real_engine, setter=None, demo_mode=False):
                         removed_vehs.append(vehicle)
                 topology = plane.topo_contsructor(removed_vehs)
                 topology = plane.swap_speed_spacing(topology)
+                print(f'Topology is {topology}')
                 communicate(topology)
                 if plane.near_flag():
                     flag_n_poi_index = plane.look_for_flags(pois, step)

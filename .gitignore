@@ -2,9 +2,10 @@
 *.pdf
 *.csv
 Tester1.py
-/cfg/simsummary.xml
-/cfg/Final Sim Results
-/cfg/sumolib
-/cfg/analyze_data.py
-/cfg/tripinfo.xml
-/cfg/trips.trips.xml
+cfg/simsummary.xml
+cfg/Final Sim Results/
+results 2019/
+cfg/sumolib/
+cfg/analyze_data.py
+cfg/tripinfo.xml
+cfg/trips.trips.xml

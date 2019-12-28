@@ -210,7 +210,7 @@ class Plane:
                     utils.set_par(vehicle, cc.PAR_ACC_HEADWAY_TIME, 1)
             else:
                 utils.set_par(vehicle, cc.PAR_ACTIVE_CONTROLLER, cc.CACC)
-                utils.set_par(vehicle, cc.PAR_CACC_SPACING, self.DISTANCE*2)
+                utils.set_par(vehicle, cc.PAR_CACC_SPACING, self.DISTANCE)
 
         return topology
 
